@@ -8,9 +8,18 @@
     "build": "rm -rf dist/ && rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "files": ["dist"],
   "keywords": [],
   "author": "Kevin Gu",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cagebooker/-kevingu-qrReader.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/preset-react": "^7.22.15",
